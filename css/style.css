@@ -1,0 +1,125 @@
+body {
+	background-image: url("../images/grid.png");
+	font-family: "Open Sans" sans-serif;
+}
+
+h1 {
+	font-family: "Roboto-bold";
+	color: #EB6551;
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+#footer {
+	background-color: #2B333D;
+	color: #aaaaaa;
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+
+#footer a {
+	color: #aaaaaa;
+}
+
+#footer a:hover {
+	color : #EB6551;
+}
+
+.social {
+	font-size: 24px;
+}
+
+#wrapper {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+	padding-top: 150px;
+	text-align: center;
+	color:  white;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
+}
+
+.main-btn {
+	background-color: #EB6551;
+	color: white;
+	border-radius:10%;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
+}
+
+.navbar-header{
+	color:white;
+}
+
+.main-btn:hover {
+	border-width: 2px;
+	color: white;
+}
+
+.spacer {
+	height: 8em;
+}
+
+#teaser {
+	text-align: center;
+}
+
+.features img{
+	margin-bottom: 2em;
+
+}
+
+.features p{
+	color: #EB6551;
+}
+
+.navbar-transparent{
+	background-color: #EB6551;
+	color: white;
+	border: none;
+}
+
+.navbar-brand a{
+	color: white;
+}
+
+.dropdown-menu {
+ 	background-color: #EB6551;
+}
+
+.dropdown-menu .social-header{
+	color: white;
+}
+
+.dropdown-menu .social-header a:hover{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* How to override the default Bootstrap navbar */
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: white;
+  line-height: 20px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand a:hover,
+.navbar-transparent .navbar-brand a :focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
